@@ -3,7 +3,6 @@
     "name": "Yle RSS Reader",
     "slug": "yle-rss-reader-expo",
     "version": "1.0.0",
-    "orientation": "portrait",
     "icon": "./assets/icon.png",
     "splash": {
       "image": "./assets/splash.png",
@@ -15,7 +14,8 @@
     },
     "assetBundlePatterns": ["**/*"],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.joonasmkauppinen.ylerssreader"
     },
     "android": {
       "adaptiveIcon": {

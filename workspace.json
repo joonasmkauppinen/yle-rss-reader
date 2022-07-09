@@ -2,6 +2,7 @@
   "$schema": "./node_modules/nx/schemas/workspace-schema.json",
   "version": 2,
   "projects": {
+    "rss-parser": "packages/rss-parser",
     "yle-rss-reader-expo": "apps/yle-rss-reader-expo",
     "yle-rss-reader-expo-e2e": "packages/yle-rss-reader-expo-e2e"
   }
